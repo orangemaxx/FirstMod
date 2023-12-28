@@ -2,6 +2,7 @@ package hewin.max.firstmod.init;
 
 import hewin.max.firstmod.FirstMod;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.registries.DeferredRegister;
@@ -24,5 +25,13 @@ public class ItemInit {
     public static final RegistryObject<Item> MONEY = ITEMS.register("money",
             () -> new Item(new Item.Properties()
                     .stacksTo(1)));
+
+
+    // Block items
+
+    public static final RegistryObject<BlockItem> NORMAL_BLOCK_ITEM = ITEMS.register("normal_block_item",
+            () -> new BlockItem(BlockInit.NORMAL_BLOCK.get(), new Item.Properties()
+                    .rarity(Rarity.EPIC)
+                    .stacksTo(64)));
 
 }
