@@ -22,4 +22,12 @@ public class CreativeInit {
                     }))
                     .build());
 
+    public static final RegistryObject<CreativeModeTab> TOOLS_TAB = TABS.register("tools_tab",
+            () -> CreativeModeTab.builder()
+                    .title(Component.translatable("tab." + FirstMod.MODID + ".tools_tab"))
+                    .icon(ToolsInit.NORMAL_SWORD.get()::getDefaultInstance)
+                    .displayItems(((itemDisplayParameters, output) -> {
+                        output.accept(ToolsInit.NORMAL_SWORD.get());
+                    }))
+                    .build());
 }
