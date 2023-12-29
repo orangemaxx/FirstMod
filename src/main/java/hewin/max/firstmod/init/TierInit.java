@@ -1,9 +1,8 @@
-package hewin.max.firstmod.init.util;
+package hewin.max.firstmod.init;
 
-import net.minecraft.tags.TagKey;
 import net.minecraftforge.common.ForgeTier;
 
-public class tiers {
+public class TierInit {
 
     public static final ForgeTier NORMAL = new ForgeTier(
             4,
