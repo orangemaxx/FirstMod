@@ -1,5 +1,6 @@
 package hewin.max.firstmod.init.util;
 
+import net.minecraft.tags.TagKey;
 import net.minecraftforge.common.ForgeTier;
 
 public class tiers {
@@ -10,7 +11,7 @@ public class tiers {
             0.5f,
             0.0f,
             15,
-            
+
 
     );
 
