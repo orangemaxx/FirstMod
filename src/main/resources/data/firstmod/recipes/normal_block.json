@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "firstmod:normal_difficulty"
+    }
+  },
+  "result": {
+    "item": "firstmod:normal_block_item",
+    "count": 1
+  }
+}

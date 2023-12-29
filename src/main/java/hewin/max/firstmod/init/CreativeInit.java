@@ -16,8 +16,8 @@ public class CreativeInit {
                     .title(Component.translatable("tab." + FirstMod.MODID + ".first_tab"))
                     .icon(ItemInit.NORMALDIFFICULTY.get()::getDefaultInstance)
                     .displayItems(((displayParameters, output) -> {
-                        output.accept(ItemInit.NORMALDIFFICULTY.get());
                         output.accept(ItemInit.NORMAL_BLOCK_ITEM.get());
+                        output.accept(ItemInit.NORMALDIFFICULTY.get());
                         output.accept(ItemInit.MONEY.get());
                     }))
                     .build());
