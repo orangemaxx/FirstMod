@@ -4,6 +4,7 @@ package hewin.max.firstmod;
 import hewin.max.firstmod.init.BlockInit;
 import hewin.max.firstmod.init.CreativeInit;
 import hewin.max.firstmod.init.ItemInit;
+import hewin.max.firstmod.init.ToolsInit;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -21,6 +22,7 @@ public class FirstMod {
         ItemInit.ITEMS.register(modbus);
         BlockInit.BLOCK.register(modbus);
         CreativeInit.TABS.register(modbus);
+        ToolsInit.TOOL.register(modbus);
     }
 
 }

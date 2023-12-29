@@ -11,6 +11,6 @@ public class ToolsInit {
 
     public static final DeferredRegister<Item> TOOL = DeferredRegister.create(ForgeRegistries.ITEMS, FirstMod.MODID);
 
-    public static final RegistryObject<SwordItem> NORMAL_SWORD
+    public static final RegistryObject<SwordItem> NORMAL_SWORD = TOOL.register()
 
 }
