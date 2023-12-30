@@ -1,2 +1,4 @@
-package hewin.max.firstmod.init;public class ArmorInit {
+package hewin.max.firstmod.init;
+
+public class ArmorInit {
 }
